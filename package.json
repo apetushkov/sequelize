@@ -88,7 +88,7 @@
     "nodejs",
     "object relational mapper"
   ],
-  "main": "index",
+  "main": "index.js",
   "scripts": {
     "test": "if [ $COVERAGE ]; then npm run coveralls; else npm run jshint && npm run teaser && npm run test-unit && npm run test-integration; fi",
     "test-docker": "docker-compose run sequelize /bin/sh -c \"npm run test-all\"",
